@@ -14,7 +14,7 @@ def slep():
     time.sleep(60)
 
 def notify_server(data):
-    server_url = 'http://localhost:6000/api/iot/data'  
+    server_url = 'https://iot-data-backend.unaizk.com/api/iot/data'  
      
     # print(jdata)
     # ddata = json.loads(jdata)
